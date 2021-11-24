@@ -10,7 +10,7 @@ export const SignInButton = (props: Props) => {
 
     return(
         <>
-            <Button mr="3" mt="3" borderRadius="6" variant="ghost" colorScheme="blue" _hover={{ bg: "#ebedf0" }}>
+            <Button mr="3" mt="3" borderRadius="6" variant="ghost" colorScheme="blue" __hover={"blue"}>
                 {props.textButton}
             </Button>
             <Button mr="6" mt="3" borderRadius="6" variant="outline" colorScheme="blue">
