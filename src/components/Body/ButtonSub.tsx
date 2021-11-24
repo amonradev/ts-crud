@@ -8,7 +8,7 @@ interface Props {
 export const ButtonSub = (props: Props) => {
     return (
         <>
-            <Button>
+            <Button variant="solid" bgColor="blue.400" colorScheme="blue">
                 {props.TextButton}
             </Button>
         </>
