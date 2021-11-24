@@ -1,15 +1,19 @@
-import { Flex, Spacer } from "@chakra-ui/react"
+import { Flex, Spacer, Box, Heading, Button } from "@chakra-ui/react"
 import React from "react"
 import { SignInButton } from "./SingInButton"
 import { Title } from "./Title"
 
 export const Header = () => {
 
-    return(
+    return (
         <Flex>
-            <Title titleText="TS News" />
+            <Box>
+                <Title titleText="TS News" />
+            </Box>
             <Spacer />
-            <SignInButton textButton="Sign In" textButton2="Register" />
+            <Box>
+                <SignInButton textButton="Sign In" textButton2="Register" />
+            </Box>
         </Flex>
     )
 }
