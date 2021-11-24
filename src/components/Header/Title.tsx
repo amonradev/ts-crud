@@ -7,7 +7,7 @@ interface Props {
 
 export const Title = (props: Props) => {
     return(
-        <Text>
+        <Text bgGradient="linear(to-l, blue.100, blue.400)" bgClip="text" fontSize="40px" marginLeft="10px">
             {props.titleText}
         </Text>
     )

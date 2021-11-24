@@ -8,7 +8,7 @@ export const TextInfo = (props: Props) => {
 
     return(
         <>
-            <Text fontSize="20px">
+            <Text fontSize="18px">
                 {props.TextInfo}
             </Text>
         </>

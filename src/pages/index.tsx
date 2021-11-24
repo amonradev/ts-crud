@@ -9,7 +9,7 @@ import { BodyComponent } from '../components/Body/BodyComponent'
 const Home: NextPage = () => {
   return (
     <>
-    <Box bgColor="purple.900" height="70px" bgGradient="linear(to-r, purple.900, purple.600)">
+    <Box bgColor="gray.900" height="70px" borderBottom="4px" borderColor="gray.800">
     <Header />
     </Box>
       <BodyComponent />
